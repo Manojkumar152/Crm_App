@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CRM_App</string>
+    <string name="company_name">LBM Solutions</string>
+    <string name="support">Support</string>
+    <string name="projects">Projects</string>
+    <string name="contracts">Contracts</string>
+    <string name="proposals">Proposals</string>
+    <string name="company_profile">Company Profile</string>
+</resources>

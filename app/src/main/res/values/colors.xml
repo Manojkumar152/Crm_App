@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="text_color">#333030</color>
+    <color name="hint_color">#948e8e</color>
+    <color name="light_grey">#b6b3b3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="support_bg">#8578ff</color>
+    <color name="project_bg">#6fccfc</color>
+    <color name="invoice_bg">#0ce29a</color>
+    <color name="company_profile_bg">#feb850</color>
+    <color name="proposals_bg">#ee5959</color>
+    <color name="contracts_bg">#cd58ef</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
