@@ -13,5 +13,8 @@
     <color name="proposals_bg">#ee5959</color>
     <color name="contracts_bg">#cd58ef</color>
     <color name="white">#FFFFFF</color>
+    <color name="green">#6BA32D</color>
+    <color name="light_blue">#b6b3d9</color>
+    <color name="proposal_status_clr">#05dac6</color>
 
 </resources>
