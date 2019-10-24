@@ -6,7 +6,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.view.GravityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -49,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         support_layout.setOnClickListener(this);
         proposal_layout.setOnClickListener(this);
+        company_profile_layout.setOnClickListener(this);
+        backbtn.setOnClickListener(this);
     }
 
     @Override
@@ -62,11 +63,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.invoice_layout:
                 break;
             case R.id.company_profile_layout:
+                setFragment(new CompanyProfileFragment());
                 break;
             case R.id.proposal_layout:
                 setFragment(new ProposalListFragment());
                 break;
             case R.id.contracts_layout:
+                break;
+            case R.id.back_btn:
+                onBackPressed();
                 break;
         }
     }
@@ -114,5 +119,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             alertDialog.show();
         }
     }
+
 
 }
